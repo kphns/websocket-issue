@@ -1,0 +1,25 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    eventmachine (1.2.7-java)
+    faye-websocket (0.10.7)
+      eventmachine (>= 0.12.0)
+      websocket-driver (>= 0.5.1)
+    permessage_deflate (0.1.4)
+    puma (3.12.0-java)
+    rack (2.0.6)
+    websocket-driver (0.7.0-java)
+      websocket-extensions (>= 0.1.0)
+    websocket-extensions (0.1.3)
+
+PLATFORMS
+  java
+
+DEPENDENCIES
+  faye-websocket
+  permessage_deflate
+  puma
+  rack
+
+BUNDLED WITH
+   1.17.1
